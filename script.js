@@ -4,7 +4,7 @@ function isSameType(value1, value2) {
 		let val1 = typeof(value1);
 		let val2 = typeof(value2);
 
-	  return val1 === val2;
+	  return val1 == val2;
 	
 	
 }
